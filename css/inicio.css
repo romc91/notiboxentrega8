@@ -95,6 +95,26 @@ section {
   border: 1px dotted;
   border-radius: 4px; }
 
+.not1 {
+  color: blue;
+  text-indent: 50px;
+  text-shadow: 1px 3px 4px black; }
+
+.not2 {
+  color: #f3f708;
+  text-indent: 40px;
+  text-shadow: 2px 3px 4px grey; }
+
+.not3 {
+  color: #12ee12;
+  text-indent: 30px;
+  text-shadow: 3px 2px 5px red; }
+
+.not4 {
+  color: white;
+  text-indent: 25px;
+  text-shadow: 4px 3px 3px #00ccf0; }
+
 /*p{
     border: 1px dotted;
     border-radius: 4px;
@@ -116,7 +136,7 @@ h2 {
   text-align: center; }
 
 .parrafoch {
-  border-style: dashed;
+  border: 1px dashed;
   text-align: justify;
   color: coral; }
 
@@ -181,11 +201,45 @@ form {
   margin-bottom: 1px; }
 
 /* PRÓXIMAS PELEAS */
-.mespp {
-  font-weight: 800;
-  text-decoration: underline;
-  line-height: 1cm; }
+.pp, .pp_ago, .pp_sept, .pp_oct {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  opacity: 0.2;
+  color: white; }
 
+.pp_ago {
+  background-color: red; }
+
+.pp_sept {
+  background-color: black; }
+
+.pp_oct {
+  background-color: white;
+  color: black; }
+
+dt {
+  text-decoration: underline;
+  font-weight: bolder;
+  opacity: 1; }
+
+dd {
+  opacity: 1;
+  padding-top: 15px;
+  padding-bottom: 5px; }
+
+.pp_tit {
+  font-style: oblique;
+  font-weight: bold;
+  padding: 0px; }
+
+/*
+.mespp{ 
+    font-weight: 800;
+    text-decoration: underline;
+    line-height: 1cm;
+}*/
 /* FOOTER */
 footer {
   text-align: center;

@@ -100,7 +100,29 @@ section{
     border-radius: 4px;
 }
 
+@mixin estilo_parrafos( $colorletra , $sangria , $sombratext) {
+    
+    color: $colorletra;
+    text-indent: $sangria;
+    text-shadow: $sombratext;
 
+}
+
+.not1{
+    @include estilo_parrafos(blue, 50px , 1px 3px 4px black )
+}
+
+.not2{
+    @include estilo_parrafos(rgb(243, 247, 8), 40px , 2px 3px 4px grey )
+}
+
+.not3{
+    @include estilo_parrafos(rgb(18, 238, 18), 30px , 3px 2px 5px red )
+}
+
+.not4{
+    @include estilo_parrafos(white, 25px , 4px 3px 3px rgb(0, 204, 240) )
+}
 
 /*p{
     border: 1px dotted;
@@ -129,10 +151,11 @@ h2{
 
 .comb_his{
     text-align: center;
+    
 }
 
 .parrafoch{
-    border-style: dashed;
+    border: 1px dashed;
     text-align: justify;
     color: coral;
     
@@ -220,11 +243,57 @@ form{
 
 /* PRÓXIMAS PELEAS */
 
+.pp{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: 0.2;
+    color: white;
+
+}
+
+.pp_ago{
+    background-color: red;
+    @extend .pp;
+}
+
+.pp_sept{
+    background-color: black;
+    @extend .pp;
+}
+
+.pp_oct{
+    background-color: white;
+    color: black;
+    @extend .pp;
+}
+
+dt{
+    text-decoration: underline;
+    font-weight: bolder;
+    opacity: 1;
+}
+
+dd{
+    opacity: 1;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.pp_tit{
+    font-style: oblique;
+    font-weight: bold;
+    padding: 0px;
+    
+}
+
+/*
 .mespp{ 
     font-weight: 800;
     text-decoration: underline;
     line-height: 1cm;
-}
+}*/
 
 /* FOOTER */
 
