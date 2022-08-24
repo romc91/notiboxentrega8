@@ -210,7 +210,6 @@ h2{
     margin-left: auto;
     margin-right: auto;
 
-   
 }
 
 .parrafoly{
@@ -349,6 +348,7 @@ footer{
 
 @media only screen and (max-width:600px){
 
+
 /* INICIO */
     
     section{
@@ -433,7 +433,7 @@ footer{
         border: 1px dotted;
         border-radius: 4px;
         margin: 10px;
-        
+        width: 90%;
     }
 
     .tituloly{
@@ -445,8 +445,61 @@ footer{
         width: 200px;
     }
 
+
     /*.parrafoly{
         border: 1px dotted;
         border-radius: 4px;
     }*/
+
+/* CONTACTO */
+
+form{
+
+    margin: 0 auto;
+    }
+    
+/* PROXIMAS PELEAS */
+
+.titulopp{
+    
+    font-size: 20px;
 }
+
+/* COMBATES HISTORICOS */
+
+#comh{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* cambios generales */
+    
+    h1{
+        opacity: 1;
+        font-size: large;
+        color: goldenrod;
+        text-shadow: 10px 3px 4px rgb(201, 197, 197);
+    }
+
+    h2{
+        font-size: large;
+    }
+
+    footer{
+        width: 100%;
+    }
+    
+
+}
+
+@media only screen and (max-width:1115px){
+
+#comh{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+}
+
+
