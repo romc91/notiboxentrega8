@@ -25,16 +25,7 @@ li {
 @media only screen and (max-width: 1050px) {
   ul {
     flex-direction: column;
-    align-items: center; }
-  a {
-    text-decoration: none;
-    color: black; }
-    a:hover {
-      color: #f5c243; }
-  li {
-    color: white;
-    width: 200px;
-    font-style: bold; } }
+    align-items: center; } }
 
 /* FOOTER */
 footer {
@@ -86,79 +77,76 @@ input:hover {
   margin-bottom: 120px;
   opacity: 0.85; }
 
-#ali {
-  grid-area: a1;
+#ali, #floyd, #sugar, #rocky, #tyson, #pacman {
   border-radius: 4px;
   height: 650px;
   width: 250px; }
+
+#ali {
+  grid-area: a1; }
 
 #floyd {
-  grid-area: a2;
-  border-radius: 4px;
-  height: 650px;
-  width: 250px; }
+  grid-area: a2; }
 
 #sugar {
-  grid-area: a3;
-  border-radius: 4px;
-  height: 650px;
-  width: 250px; }
+  grid-area: a3; }
 
 #rocky {
-  grid-area: a4;
-  border-radius: 4px;
-  height: 650px;
-  width: 250px; }
+  grid-area: a4; }
 
 #tyson {
-  grid-area: a5;
-  border-radius: 4px;
-  height: 650px;
-  width: 250px; }
+  grid-area: a5; }
 
 #pacman {
-  grid-area: a6;
-  border-radius: 4px;
-  height: 650px;
-  width: 250px; }
+  grid-area: a6; }
 
 @media only screen and (max-width: 800px) {
   .leyend {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    grid-template-areas: "a1" "a2" "a3" "a4" "a5" "a6";
-    margin: 30px 20px 25px 20px; }
-  #ali {
-    grid-area: a1;
-    border-radius: 4px;
-    height: 650px;
-    width: 250px; }
-  #floyd {
-    grid-area: a2;
-    border-radius: 4px;
-    height: 650px;
-    width: 250px; }
-  #sugar {
-    grid-area: a3;
-    border-radius: 4px;
-    height: 650px;
-    width: 250px; }
-  #rocky {
-    grid-area: a4;
-    border-radius: 4px;
-    height: 650px;
-    width: 250px; }
-  #INSERTAR LEYENDA {
-    grid-area: a5;
-    border-radius: 4px;
-    height: 650px;
-    width: 250px; }
-  #pacman {
-    grid-area: a6;
-    border-radius: 4px;
-    height: 650px;
-    width: 250px; } }
+    grid-template-areas: "a1" "a2" "a3" "a4" "a5" "a6"; } }
+
+/* COMBATES HISTORICOS */
+.parrafoch {
+  border: 1px dashed;
+  border-radius: 5px;
+  text-align: justify;
+  color: coral; }
+
+#historicos {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-template-areas: "ch1 ch2" "ch3 ch4";
+  grid-gap: 10px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 75px; }
+
+#sonny {
+  grid-area: ch1; }
+
+#berbick {
+  grid-area: ch2; }
+
+#hagler {
+  grid-area: ch3; }
+
+#muhammad {
+  grid-area: ch4; }
+
+@media only screen and (max-width: 1115px) {
+  #historicos {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "ch1" "ch2" "ch3" "ch4"; }
+  /*iframe{
+        width: 50%;
+    }*/ }
 
 /* ESTILOS GENERALES */
 * {
@@ -183,7 +171,13 @@ h1 {
   text-align: right; }
 
 h2 {
-  font-style: italic; }
+  font-style: italic;
+  padding-bottom: 5px; }
+
+h3 {
+  font-weight: bold;
+  font-style: italic;
+  color: goldenrod; }
 
 #banner {
   height: 244px;
@@ -272,66 +266,6 @@ section {
 .pp_dic {
   margin-bottom: 100px; }
 
-/* COMBATES HISTORICOS */
-.comb_his {
-  text-align: center; }
-
-.parrafoch {
-  border: 1px dashed;
-  border-radius: 5px;
-  text-align: justify;
-  color: coral; }
-
-.tituloch {
-  font-weight: bold;
-  font-style: italic;
-  color: goldenrod; }
-
-/*
-.grid_ly{
-    
-    display: flex;
-    opacity: 0.6;
-    font-size: large;
-    text-align: center;
-    justify-content: space-around;
-}
-
-.ly1{
-    
-    align-items: center;
-    width: 65%;
-}
-
-.tituloly{
-    font-style: italic;
-    text-align: center;
-    align-items: center;
-    align-content: center;
-    color:red;
-    background-color: black;
-} 
-
-.imgly{
-    width: 300px;
-    height: 300px;
-    text-align: center;
-    margin: 1%;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-.parrafoly{
-    
-    float: inline-end;
-    text-align: justify;
-    margin: 5%;
-    height: 100%;
-    
-}
-
-*/
 /* CONTACTO */
 .tituloform {
   text-align: left; }

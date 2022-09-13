@@ -14,47 +14,41 @@
     opacity: 0.85;
 }
 
-#ali{
-    grid-area: a1;
+%estiloley{
     border-radius: 4px;
     height: 650px;
     width: 250px;
+}
+
+#ali{
+    grid-area: a1;
+    @extend %estiloley;
 }
 
 #floyd{
     grid-area: a2;
-    border-radius: 4px;
-    height: 650px;
-    width: 250px;
+    @extend %estiloley;
 }
 
 #sugar{
     grid-area: a3;
-    border-radius: 4px;
-    height: 650px;
-    width: 250px;
+    @extend %estiloley;
 }
 
 
 #rocky{
     grid-area: a4;
-    border-radius: 4px;
-    height: 650px;
-    width: 250px;
+    @extend %estiloley;
 }
 
 #tyson{
     grid-area: a5;
-    border-radius: 4px;
-    height: 650px;
-    width: 250px;
+    @extend %estiloley;
 }
 
 #pacman{
     grid-area: a6;
-    border-radius: 4px;
-    height: 650px;
-    width: 250px;
+    @extend %estiloley;
 }
 
 @media only screen and (max-width:800px){
@@ -68,49 +62,5 @@
                                 "a4"
                                 "a5"
                                 "a6";
-        margin: 30px 20px 25px 20px;
-    }
-
-    #ali{
-        grid-area: a1;
-        border-radius: 4px;
-        height: 650px;
-        width: 250px;
-    }
-    
-    #floyd{
-        grid-area: a2;
-        border-radius: 4px;
-        height: 650px;
-        width: 250px;
-    }
-    
-    #sugar{
-        grid-area: a3;
-        border-radius: 4px;
-        height: 650px;
-        width: 250px;
-    }
-    
-    
-    #rocky{
-        grid-area: a4;
-        border-radius: 4px;
-        height: 650px;
-        width: 250px;
-    }
-    
-    #INSERTAR LEYENDA{
-        grid-area: a5;
-        border-radius: 4px;
-        height: 650px;
-        width: 250px;
-    }
-    
-    #pacman{
-        grid-area: a6;
-        border-radius: 4px;
-        height: 650px;
-        width: 250px;
     }
 }

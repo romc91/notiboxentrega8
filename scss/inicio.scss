@@ -2,6 +2,7 @@
 @import "footer";
 @import "animaciones";
 @import "leyendas";
+@import "historicos";
 
 /* ESTILOS GENERALES */
 
@@ -31,6 +32,13 @@ h1{
 
 h2{
     font-style: italic;
+    padding-bottom: 5px;
+}
+
+h3{
+    font-weight: bold;
+    font-style: italic;
+    color: goldenrod;
 }
 
 #banner{
@@ -122,7 +130,6 @@ section{
 
 /* PRÓXIMAS PELEAS */
 
-
 %proxpeleas{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-top: 20px;
@@ -177,79 +184,6 @@ section{
 }
 
 
-/* COMBATES HISTORICOS */
-
-
-.comb_his{
-    text-align: center;
-    
-}
-
-.parrafoch{
-    border: 1px dashed;
-    border-radius: 5px;
-    text-align: justify;
-    color: coral;
-}
-
-.tituloch{
-    font-weight: bold;
-    font-style: italic;
-    color: goldenrod;
-}
-
-
-
-
-
-/*
-.grid_ly{
-    
-    display: flex;
-    opacity: 0.6;
-    font-size: large;
-    text-align: center;
-    justify-content: space-around;
-}
-
-.ly1{
-    
-    align-items: center;
-    width: 65%;
-}
-
-.tituloly{
-    font-style: italic;
-    text-align: center;
-    align-items: center;
-    align-content: center;
-    color:red;
-    background-color: black;
-} 
-
-.imgly{
-    width: 300px;
-    height: 300px;
-    text-align: center;
-    margin: 1%;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-.parrafoly{
-    
-    float: inline-end;
-    text-align: justify;
-    margin: 5%;
-    height: 100%;
-    
-}
-
-*/
-
-
-
 /* CONTACTO */
 
 .tituloform{
@@ -270,8 +204,6 @@ form{
 label{
     color: rgb(243, 216, 63);
 }
-
-
 
 
 

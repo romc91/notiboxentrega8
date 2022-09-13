@@ -37,23 +37,5 @@ ul{
         flex-direction: column;
         align-items: center;
      }
-     
-     a{
-         text-decoration: none;
-         color: black;
     
-         &:hover{
-            color: rgb(245, 194, 67);
-        }
-     }
-    
-     
-     
-     li{
-         color:white;
-         width: 200px;
-         font-style: bold;
-     }
-
-
  }

@@ -1,0 +1,57 @@
+
+/* COMBATES HISTORICOS */
+
+
+.parrafoch{
+    border: 1px dashed;
+    border-radius: 5px;
+    text-align: justify;
+    color: coral;
+}
+
+#historicos{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: "ch1 ch2"
+                            "ch3 ch4";
+    grid-gap: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+#sonny{
+    grid-area: ch1;
+}
+
+#berbick{
+    grid-area: ch2;
+}
+
+#hagler{
+    grid-area: ch3;
+}
+
+#muhammad{
+    grid-area: ch4;
+}
+
+@media only screen and (max-width:1115px){
+    #historicos{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas:    "ch1"
+                                "ch2"
+                                "ch3"
+                                "ch4";
+    }
+
+    /*iframe{
+        width: 50%;
+    }*/
+
+}
