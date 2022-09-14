@@ -119,8 +119,7 @@ iframe {
   align-items: center;
   text-align: center;
   justify-content: space-evenly;
-  margin-top: 50px;
-  margin-bottom: 75px; }
+  margin: 50px 15px 75px 15px; }
 
 #sonny {
   grid-area: ch1; }
@@ -164,7 +163,8 @@ h1 {
   text-shadow: 5px 3px 4px #4d4a4a;
   opacity: 0.8;
   font-style: italic;
-  text-align: right; }
+  text-align: right;
+  margin-right: 10px; }
 
 h2 {
   font-style: italic;
@@ -336,11 +336,6 @@ label {
   .titulopp {
     font-size: 20px; }
   /* COMBATES HISTORICOS */
-  #comh {
-    display: flex;
-    flex-wrap: wrap; } }
-
-@media only screen and (max-width: 1115px) {
   #comh {
     display: flex;
     flex-wrap: wrap; } }
